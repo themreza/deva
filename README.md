@@ -24,6 +24,20 @@ conformity of the overall design to design principles and best practices.
 - [ ] Create a visual element detection system
 - [ ] Create an analysis engine to validate design elements against design principles
 
+## FAQ
+
+* How to find examples of design mistakes
+  - Search Google for websites made using common website builders
+    - `site:weebly.com`
+    - `site:wix.com`
+    - `site:squarespace.com`
+    - `site:webnode.com`
+    - `site:mozello.com`
+
+## References
+
+* https://web.archive.org/web/20210927233802/https://tilda.education/en/design-mistakes
+
 ## Credits
 
 A project by [Mohammad Tomaraei](https://tomaraei.com).
