@@ -40,6 +40,8 @@ If possible, the relative sizes of textual elements should be identified with re
 
 Using the stroke width transform method, it is possible to create bounding boxes around pieces of text in an image.
 
+**To do: Test OpenMMLab's MMOCR which features various trained models for text detection**
+
 ### Example (Needs Improvement) 
 
 #### Original Image
@@ -57,5 +59,6 @@ Using the stroke width transform method, it is possible to create bounding boxes
 ### More information: 
 
 * https://web.archive.org/web/20210929005209/http://www.math.tau.ac.il/~turkel/imagepapers/text_detection.pdf
-* https://github.com/marrrcin/swt-python
 * https://github.com/ag-ds-bubble/swtloc
+* https://github.com/open-mmlab/mmocr
+* https://github.com/hwalsuklee/awesome-deep-text-detection-recognition
