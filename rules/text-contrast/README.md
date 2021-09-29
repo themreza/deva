@@ -18,12 +18,6 @@ More information:
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast
 * https://colourcontrast.cc/
 
-## Element Detection
-
-The design should be scanned for textual elements, ideally of any language.
-
-If possible, the relative sizes of textual elements should be identified with respect to the overall design.
-
 ## Valid Examples
 
 * https://web.archive.org/web/20210927123418/https://www.amazon.com/
@@ -35,3 +29,33 @@ If possible, the relative sizes of textual elements should be identified with re
 * https://web.archive.org/web/20210927233500/https://decalonz.wixsite.com/decalonzgraphicz
 
 ![](invalid-1.jpg)
+
+## Element Detection
+
+The design should be scanned for textual elements, ideally of any language.
+
+If possible, the relative sizes of textual elements should be identified with respect to the overall design.
+
+## Technical Implementation
+
+Using the stroke width transform method, it is possible to create bounding boxes around pieces of text in an image.
+
+### Example (Needs Improvement) 
+
+#### Original Image
+
+![](orig_img.png)
+
+#### Stroke Width Transform
+
+![](swtpruned3C_img.png)
+
+#### Stroke Width Transform Pruned and with Bounding Boxes
+
+![](swtpruned_bbox.png)
+
+### More information: 
+
+* https://web.archive.org/web/20210929005209/http://www.math.tau.ac.il/~turkel/imagepapers/text_detection.pdf
+* https://github.com/marrrcin/swt-python
+* https://github.com/ag-ds-bubble/swtloc
