@@ -62,3 +62,4 @@ Using the stroke width transform method, it is possible to create bounding boxes
 * https://github.com/ag-ds-bubble/swtloc
 * https://github.com/open-mmlab/mmocr
 * https://github.com/hwalsuklee/awesome-deep-text-detection-recognition
+* https://github.com/Layout-Parser/layout-parser
