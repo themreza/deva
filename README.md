@@ -35,7 +35,7 @@ conformity of the overall design to design principles and best practices.
     - `site:mozello.com`
 * What is the advantage of using an input image instead of the HTML DOM?
   - Even though using an image as the design input makes it challenging to detect elements, it allows for 
-  a platform-independent solution, regardless of the actual technical implementation.
+  a platform-independent solution, regardless of the actual technical implementation of the design.
 ## References
 
 * https://web.archive.org/web/20210927233802/https://tilda.education/en/design-mistakes
